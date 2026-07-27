@@ -12,3 +12,8 @@ print (tuple2[3]) #You still can view the number or variable of the tuples in on
 list1 = [1,2,3,4,5]
 tuplelist = tuple(list1)
 print (type(tuplelist))
+
+l = (1,2,3)
+x, y, z = l
+print (x, y, z) #You can assing a value of the tuple with x elements to x variables
+
