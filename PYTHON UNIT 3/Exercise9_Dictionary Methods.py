@@ -15,4 +15,5 @@ print (v)
 result = (dict.fromkeys(dict, 0))
 print (result)
 
-updte = (dict.update({"a": 3, ""}))
+dict.update({"a": 2, "b":4})
+print (dict)
