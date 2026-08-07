@@ -8,4 +8,4 @@ y = [1,1,1,1,2,3,3,5,6,6,7,8,8,9]
 print (y.index(3))#it works the same but its used to identify in what position is the number you're searching
 
 #Also includes a secon parameter to start looking after a variable when some variables had already passed
-print (y.index(3, 6))
+print (y.index(3, 6)) 

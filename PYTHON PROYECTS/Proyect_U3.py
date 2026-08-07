@@ -17,3 +17,17 @@ if n1 == "1":
     movielist = [movie1, movie2, movie3, movie4, movie5, movie6, movie7]
 
 print(f"Your actual movie list is this:{movielist}")
+
+print ("Now for each movie you'll have to put a ranking grade up to 100")
+
+r1 = input(f"For the movie {movie1} enter your grade please ")
+r2 = input(f"For the movie {movie2} enter your grade please ")
+r3 = input(f"For the movie {movie3} enter your grade please ")
+r4 = input(f"For the movie {movie4} enter your grade please ")
+r5 = input(f"For the movie {movie5} enter your grade please ")
+r6 = input(f"For the movie {movie6} enter your grade please ")
+r7 = input(f"For the movie {movie7} enter your grade please ")
+
+dictionarymovies = {f"{movie1}":r1, f"{movie2}":r2, f"{movie3}":r3, f"{movie4}":r4, f"{movie5}":r5, f"{movie6}":r6, f"{movie7}":r7 }
+print (f"This  is the complete list of the movies and their grades{dictionarymovies}")
+v1 = input ("  ")
