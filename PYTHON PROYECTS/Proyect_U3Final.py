@@ -26,7 +26,6 @@ answer2 = (input("Now write exactly the same word you think is incorrect  "))
 
 if answer2 == solution2:
     score = (score + 1)
-    print (score)
     print ("Your answer was correct, you've earned 1 point with this question")
 else:
     print ("Your answer was incorrect, you'll not earn points")
@@ -39,7 +38,9 @@ answer3 = (input("Now write exactly the same word you think is incorrect "))
 
 if answer3 == solution3:
     score = (score + 1)
-    print (score)
     print ("Your answer was correct, you've earned 1 point with this question")
 else:
     print ("Your answer was incorrect, you'll not earn points")
+
+print ("Now we'll move to the second game")
+print ("Here you have to")
