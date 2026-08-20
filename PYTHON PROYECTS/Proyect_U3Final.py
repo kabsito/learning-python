@@ -73,8 +73,9 @@ if solutionnumber1 == answernumber1:
     score = (score + 1)
 else:
     print ("Your answer was incorrect, you won't earn points for this question")
-    
-    number2 = -575.7  
+
+
+number2 = -575.7  
 print (F"This is the first number, for the answer just type the number please {number1}")
 answernumber2 = (input)
 
