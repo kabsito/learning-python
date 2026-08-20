@@ -62,7 +62,7 @@ print ("Here you have to tell me the correct number rounded up and the absolute 
 
 number1 = 6345.448  
 print (F"This is the first number, for the answer just type the number please {number1}")
-answernumber1 = (input)
+answernumber1 = (input("Enter the number here "))
 
 
 solutionnumber1 = (round(number1))
@@ -76,8 +76,8 @@ else:
 
 
 number2 = -575.7  
-print (F"This is the first number, for the answer just type the number please {number1}")
-answernumber2 = (input)
+print (F"This is the first number, for the answer just type the number please {number2}")
+answernumber2 = (input("Enter the number here "))
 
 
 solutionnumber2 = (abs(round(number2)))
