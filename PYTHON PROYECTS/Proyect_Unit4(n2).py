@@ -9,5 +9,5 @@ while option >3 :
     while option<0:
         option =int(input("Press the button that corresponds to the action you want to do"))
 
-print (option)
+
 
