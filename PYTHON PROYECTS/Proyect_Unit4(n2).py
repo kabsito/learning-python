@@ -2,15 +2,16 @@ print ("Welcome to your shoping list!")
 
 print('''What would you like to do?
 1 - Create a new shopping list
-2 - See your last shopping list
-3 - exit''')
+2 - exit''')
 option = int(input("Now enter the number that corresponds to the action you want to make "))
 while True:
-     if option in [1,2,3]:
+     if option in [1,2,]:
           break
      else:
           option =int(input("Press the button that corresponds to the action you want to do "))
           continue
+if option == 2:
+     exit()
 
 if option == 1:
      print ('''Some things for the creation of your list, it can contain up to 20 elements and in the case \nyou want to finish you should put 0 instead''')
@@ -41,3 +42,4 @@ while call1 != "0":
           call1 = (f"{call1}✅")
           list.append(call1)
           print (list)
+print = ('You finished your shopping list, thank you and see you later!')
