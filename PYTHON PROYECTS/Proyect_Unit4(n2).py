@@ -32,5 +32,12 @@ print ("Now when you have taken a item of your shopping list you can mark it and
 print ("You must write the same item and it will apear with a ✔️\n")
 
 variable1 = (input('''Now you can do several things:
-'''))
-call1 = (input("Enter the name of the item you want to check "))
+if you press 1 you will be able to check all the items you already have and put them a check, if you want to stop doing that then press 0'''))
+call1 = (input("Enter the action you want to do "))
+while call1 != "0":
+     call1 = (input("Enter the name of the item you want to check "))
+     if call1 in list:
+          list.remove(call1)
+          call1 = (f"{call1}✅")
+          list.append(call1)
+          print (list)
