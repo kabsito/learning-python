@@ -20,3 +20,9 @@ def minus(a,b):
     return a-b
 print (minus(5,3))
 
+def Plus(numbers):
+    total = 0
+    for n in numbers:
+        total += n 
+    return total
+print (Plus([1,2,3,4,5,6,7,8,9,10]))
