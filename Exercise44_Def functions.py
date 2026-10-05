@@ -26,3 +26,11 @@ def Plus(numbers):
         total += n 
     return total
 print (Plus([1,2,3,4,5,6,7,8,9,10]))
+
+
+def add (*number):
+    print (type(number))
+    total = 0
+    for n in number:
+        total += n
+add (1,2,3,4)
